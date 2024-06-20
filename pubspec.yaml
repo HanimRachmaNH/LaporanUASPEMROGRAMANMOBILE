@@ -1,0 +1,59 @@
+name: sugarcareapp
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^6.0.0
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.3
+  table_calendar: ^3.0.3
+  intl: ^0.17.0
+  syncfusion_flutter_charts: ^20.2.41
+  cupertino_icons: ^1.0.6
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+uses-material-design: true
+
+flutter:
+  assets:
+    - assets/background.png
+    - assets/backgroundsugarcare.png
+    - assets/diatrack.png
+    - assets/diamed.png
+    - assets/diashare.png
+    - assets/home.png
+    - assets/profile.png
+    - assets/back.png
+    - assets/diabetes1.jpeg
+    - assets/diabetes2.jpeg
+    - assets/diabetes3.jpeg
+    - assets/diabetes4.jpeg
+    - assets/diabetes5.jpeg
+    - assets/diabetes6.jpeg
+    - assets/diabetes7.jpeg
+    - assets/dokter cowo.jpg
+    - assets/dokter cewe.jpg
+    - assets/search.png
+    - assets/send.png
+    - assets/reply.png
+    - assets/star.png
+    - assets/favorite.png
+    - assets/endah.jpg
+    - assets/hanim.jpg
+    - assets/artikel8.jpeg
+    - assets/artikel9.jpeg
+    - assets/logo sugarcare.png
+    - assets/farel.jpg
