@@ -905,48 +905,6 @@ class _BloodSugarFormState extends State<BloodSugarForm> {
   }
 }
 
-class FeatureButton extends StatelessWidget {
-  final String iconPath;
-  final String label;
-  final VoidCallback onTap;
-
-  const FeatureButton({
-    required this.iconPath,
-    required this.label,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Column(
-        children: [
-          CircleAvatar(
-            radius: 30,
-            backgroundColor: Colors.transparent,
-            child: Image.asset(
-              iconPath,
-              fit: BoxFit.contain,
-              errorBuilder: (context, error, stackTrace) {
-                return Container(color: Colors.red); // Error handler for image
-              },
-            ),
-          ),
-          SizedBox(height: 8),
-          Text(
-            label,
-            style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
 class ArticleCard extends StatelessWidget {
   final String title;
   final String views;
